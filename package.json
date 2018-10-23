@@ -7,7 +7,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "start": "node .",
+    "start": "node . && test",
     "test": "mocha test/*.spec.js --exit"
   },
   "dependencies": {
