@@ -5,8 +5,7 @@ const server = require('../server/server');
 chai.use(chaiHttp);
 const expect = chai.expect;
 
-// server.listen(4444); // local
-server.listen(process.env.PORT); // production
+server.listen(4444);
 
 describe('loopback server', function() {
   this.timeout(5000);
